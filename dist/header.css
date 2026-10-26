@@ -5,3 +5,8 @@
 @media(prefers-reduced-motion:reduce){.header-modern,.navigation-scrim,.menu-lines i{transition:none}}
 .header-modern:has(details[open]),.mobile-nav-open .header-modern{z-index:200}
 @media(min-width:1101px){.header-modern #site-navigation>a,.header-modern .nav-dropdown>summary,.header-modern .nav-dropdown>summary>span{font-size:12px}}
+
+/* Let the label use the whole booking button. */
+.header-book{justify-content:center;gap:0;padding:15px 24px;text-align:center}
+@media(max-width:1100px){.header-book{padding-inline:20px}}
+@media(max-width:700px){.header-book{padding:5px 18px}}
